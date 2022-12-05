@@ -1,0 +1,86 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+
+}
+.tachado {
+    text-decoration: line-through;
+    color: #686666;
+}
+
+
+div#contenido {
+  width: 350px;
+  margin: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 28px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  display: block;
+  width: 200px;
+}
+
+
+#cabecera {
+    width: 360px;
+    height: 120px;
+    margin: -10px;
+    position: -webkit-sticky;
+    top: -10px;  
+    left:0px;
+    background-color: #d3d0d0;
+    padding: 10px;
+}
+#contenido {
+    overflow: auto;  //code added
+   
+}
+#inputText {
+    width: 90%;
+}
+
+#filter {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    width: 30px;
+    height:30px;    background-size: contain;
+    background-image: url('../img/filteroff.png');
+}
+
+#filter.filteron {
+    background-image: url('../img/filteron.png');
+}
+
+.hidden {
+    display: none;
+}
+

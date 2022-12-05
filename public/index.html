@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>ListaCompra</title> 
+    <meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
+    <meta name="Shopping List" content="domesticshopping" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="./img/shoppingcart.png">
+
+
+	<link rel="stylesheet" href="./libs/jquerymobile.css" />
+	<script src="./libs/jquery.js"></script>
+    <script src="./libs/jquerymobile.js"></script>
+    <script src='./libs/socket.io.js'></script>
+    <!-- <script src="./libs/jquery.ui.touch-punch.min.js"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src='./js/client.js'></script>
+</head> 
+<body> 
+
+<div >
+    <div id='cabecera'>
+        <div id= 'Título'>
+            <h1>Shopping List</h1>
+            <div id="filter" class="filteroff"></div>
+  
+        </div><!-- /header -->
+        <input id='inputText' type="text" />
+
+    
+    </div>
+
+	<div id='contenido'>
+        
+        <ul id="lista">
+
+        </ul>
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
